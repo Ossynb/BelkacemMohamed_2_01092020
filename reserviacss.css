@@ -10,6 +10,8 @@ body {
 
 .hébergements, .populaires, footer {
     background-color: #F2F2F2;
+    border-radius: 12px;
+   
 }
 
 #bloc_pages{
@@ -18,3 +20,49 @@ body {
     margin: auto;
 
 }
+
+h1 img {
+    width: 20%;
+}
+
+h2 {
+    font-size : 95%;
+}
+
+p {
+    font-size: 50%;
+}
+
+.hébergements img, .populaires img, .activités img {
+    width: 10%;
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end ;
+}
+
+nav ul {
+
+    list-style-type: none;
+    display: flex;
+}
+
+nav li{
+
+    margin-right: 15px;
+    margin-bottom: 70px;
+
+}
+
+article {
+
+    display: flex;
+    
+}
+
+
+
+
