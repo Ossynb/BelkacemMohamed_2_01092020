@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="reserviacss.css"/>
         <title>Reservia</title>
     </head>
-</html>
+
 <body>
     <header>
         <div>
@@ -16,15 +16,15 @@
 
         <nav>
             <ul>
-                <li><a href="#">Hébergements</a></li>
-                <li><a href="#">Activités</a></li>
+                <li><a href="#hébergements">Hébergements</a></li>
+                <li><a href="#activités">Activités</a></li>
                 <li><a href="#">S'inscrire</a></li>
             </ul>
         </nav>
     </header>
     <form method="post" action="traitement.nodejs">
         <p>
-            <label for="rechercher"><img/></label>
+            <label for="rechercher"></label>
             <input type="search" name="rechercher" id="rechercher" placeholder="marseille, France" />
             <input type="submit" value="rechercher"/>
         </p>
@@ -66,7 +66,7 @@
 
     <section>
         <article>
-            <h2>Hébergements à Marseille</h2>
+            <h2 id="hébergements">Hébergements à Marseille</h2>
 
                 <p>Auberge la cannebière <br/>Nuit à partir de 25e</p>
                 <p>Hôtel du port <br/>Nuit à partir de 52e</p> 
@@ -81,12 +81,13 @@
 
                 <p>Hôtel le soleil du matin <br/>Nuit à partir de 128e</p>
                 <p>Au coeur de l'eau Chambres d'hôtes <br/>Nuit à partir de 71e</p>
-                <p>Hôtel tout bleu et blanc<br/>Nuit a partir de 68e</br:></p>
+                <p>Hôtel tout bleu et blanc<br/>Nuit a partir de 68e</p>
+
         </div>
         <aside>
-            <h3>Activités à Marseille</h3>
+            <h3 id="activités">Activités à Marseille</h3>
             <div>
-                
+
                 <p>Vieux Port</p>
                 <p>Fort de Pomègues</p>
                 <p>îles du Frioul</p>
@@ -116,3 +117,4 @@
 
     </footer>
 </body>
+</html>
