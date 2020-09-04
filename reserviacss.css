@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('polices/static/Raleway-Regular.ttf')
+}
+
+body {
+
+    font-family:'Raleway', Arial, Helvetica, sans-serif;
+}
+
+.hébergements, .populaires, footer {
+    background-color: #F2F2F2;
+}
+
+#bloc_pages{
+
+    width: 1000px;
+    margin: auto;
+
+}
