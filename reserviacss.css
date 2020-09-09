@@ -30,7 +30,7 @@ h2 {
 }
 
 p {
-    font-size: 50%;
+    font-size: 60%;
 }
 
 .hébergements img, .populaires img, .activités img {
@@ -63,7 +63,45 @@ article {
     
 }
 
+.button-filtre{ 
+    align-items: center;
+    display:flex;
+}  
 
+
+button{
+
+    
+    height: 25px;
+    font-size: 60%;
+    background-color: white;
+    border-color:#F2F2F2;
+    padding:0px 10px 0px 0px;
+    margin:0px 15px 0px 0px;
+    border-style:solid;
+    border-radius: 25px;
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+.button-filtre i{
+
+    background-color: #DEEBFF;
+    color: #0065FC;
+    padding: 7PX;
+    margin: 0px 5px 0px -8px;
+    border-radius: 25px;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+   display: inline;
+}
 
 
 
