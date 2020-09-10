@@ -27,15 +27,15 @@
     <form method="post" action="traitement.js">
         
             <p>
-            <div class="map">
-                <i class="fas fa-map-marker-alt"></i>
-                <input type="search" name="rechercher" id="rechercher" placeholder="Marseille, France"/ class="input1">
-                <input type="submit" value="Rechercher"/ class="input2">
-            </div>
+                <div class="map">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="search" name="rechercher" id="rechercher" placeholder="Marseille, France"/ class="input1">
+                    <input type="submit" value="Rechercher"/ class="input2">
+                </div>
             </p>
         
             <div class="button-filtre">
-            <p>Filtres</p>
+                <p>Filtres</p>
                 <ul>
                     <li><button type="button"><i class="fas fa-money-bill-wave-alt"></i><span>Economique</span></button></li>
                     <li><button type="button"><i class="fas fa-child"></i><span>Familial</span></button></li>
@@ -44,7 +44,10 @@
 
                 </ul>
             </div>
-            <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+
+            <div class="infocircle">
+                <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
 
             
     </form>
@@ -55,14 +58,85 @@
 
             <div class="hébergements">
                 <h2 id="hébergements">Hébergements à Marseille</h2>
+                
+                <div class="card">
+                    <img src="images/hebergements/4_small/Auberge-de-la-Cannebière.jpg" alt="Auberge-la-cannebière">
+                    <div class="contenu">
+                        <h3>Auberge la Cannebière</h3>
+                        <p>Nuit à partir de 25e</p>
+                        <div class="ratings">
 
-                    <p> <img src="images/hebergements/4_small/Auberge-de-la-Cannebière.jpg" alt="Auberge-la-cannebière">Auberge la cannebière <br/>Nuit à partir de 25e</p>
-                    <p> <img src="images/hebergements/4_small/Hotel-du-port.jpg" alt="Hôtel-du-port">Hôtel du port <br/>Nuit à partir de 52e</p> 
-                    <p> <img src="images/hebergements/4_small/Hotel-les-mouettes.jpg" alt="Hôtel-les-mouettes">Hôtel les mouettes <br/>Nuit à partir de 76e</p>
-                    <p> <img src="images/hebergements/4_small/Hotel-de-la-mer.jpg" alt="Hôtel-de-la-mer">Hôtel de la mer <br/>Nuit à partir de 46e</p>
-                    <p> <img src="images/hebergements/4_small/Auberge-le-panier.jpg" alt="Auberge-le-panier">Auberge le panier <br/>Nuit à partir de 23e</p>
-                    <p> <img src="images/hebergements/4_small/Hotel-chez-Amina.jpg" alt="Hôtel-chez-Amina ">Hôtel chez Amina <br/></p>
+                        </div>
+                    </div>
 
+                </div>
+
+                <div class="card">
+                    <img src="images/hebergements/4_small/Hotel-du-port.jpg" alt="Hôtel-du-port">
+                    <div class="contenu">
+                        <h3>Hôtel du port</h3>
+                        <p>Nuit à partir de 52e</p>
+                        <div class="ratings">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/hebergements/4_small/Hotel-les-mouettes.jpg" alt="Hôtel-les-mouettes">
+                    <div class="contenu">
+                        <h3>Hôtel les mouettes</h3>
+                        <p>Nuit à partir de 76e</p>
+                        <div class="ratings">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/hebergements/4_small/Hotel-de-la-mer.jpg" alt="Hôtel-de-la-mer">
+                    <div class="contenu">
+                        <h3>Hôtel de la mer</h3>
+                        <p>Nuit à partir de 46e</p>
+                        <div class="ratings">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/hebergements/4_small/Auberge-le-panier.jpg" alt="Auberge-le-panier">
+                    <div class="contenu">
+                        <h3>Auberge le panier</h3>
+                        <p>Nuit à partir de 23e</p>
+                        <div class="ratings">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/hebergements/4_small/Hotel-chez-Amina.jpg" alt="Hôtel-chez-Amina">
+                    <div class="contenu">
+                        <h3>Hôtel chez Amina</h3>
+                        <p>Nuit à partir de 96e</p>
+                        <div class="ratings">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img>
+                    <div class="contenu">
+                        <h3></h3>
+                        <p></p>
+                        <div class="ratings">
+
+                        </div>
+                    </div>
+                </div>
+                     
                 <h3>Afficher plus</h3>
             </div>
                     
@@ -70,9 +144,38 @@
             <div class="populaires">
                 <h2>Les plus populaires</h2>
 
-                    <p> <img src="images/hebergements/4_small/Hotel-le-soleil-du-matin.jpg" alt="Hôtel-le-soleil-du-matin">Hôtel le soleil du matin <br/>Nuit à partir de 128e</p>
-                    <p> <img src="images/hebergements/4_small/Au-coeur-de-l'eau-Chambres-hotes.jpg" alt="Au-coeur-de-l'eau-Chambres-d'hôtes">Au coeur de l'eau Chambres d'hôtes <br/>Nuit à partir de 71e</p>
-                    <p> <img src="images/hebergements/4_small/Hotel-tout-bleu-et-blanc.jpg" alt="Hôtel-tout-bleu-et-blanc">Hôtel tout bleu et blanc<br/>Nuit a partir de 68e</p>
+                <div class="card">
+                    <img src="images/hebergements/4_small/Hotel-le-soleil-du-matin.jpg" alt="Hôtel-le-soleil-du-matin">
+                    <div class="contenu">
+                        <h3>Hôtel le soleil du matin</h3>
+                        <p>Nuit à partir de 128e</p>
+                        <div class="ratings">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/hebergements/4_small/Au-coeur-de-l'eau-Chambres-hotes.jpg" alt="Au-coeur-de-l'eau-Chambres-d'hôtes">
+                    <div class="contenu">
+                        <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+                        <p>Nuit à partir de 71e</p>
+                        <div class="ratings">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="images/hebergements/4_small/Hotel-tout-bleu-et-blanc.jpg" alt="Hôtel-tout-bleu-et-blanc">
+                    <div class="contenu">
+                        <h3>Hôtel tout bleu et blanc</h3>
+                        <p>Nuit a partir de 68e</p>
+                        <div class="ratings">
+
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
@@ -85,12 +188,77 @@
 
                 <h3 id="activités">Activités à Marseille</h3>
 
-                    <p> <img src="images/activites/4_small/Vieux-Port.jpg" alt="Vieux-Port"/>Vieux Port</p>
-                    <p> <img src="images/activites/4_small/Fort-de-Pomegues.jpg" alt="Fort-de-Pomègues">Fort de Pomègues</p>
-                    <p> <img src="images/activites/4_small/iles-du-Frioul.jpg" alt="îles-du-Frioul">îles du Frioul</p>
-                    <p> <img src="images/activites/4_small/Parc-National-des-Calanques.jpg" alt="Parc-National-des-Calanques">Parc National des Calanques</p>
-                    <p> <img src="images/activites/4_small/Notre-Dame-de-la-Garde.jpg" alt="Notre-Dame-de-la-Garde">Notre-Dame-de-la-Garde</p>
-                    <p> <img src="images/activites/4_small/Parc-Longchamp.jpg" alt="Parc-Longchamp">Parc Longchamp</p>
+                <div class="card">
+                    <img src="images/activites/4_small/Vieux-Port.jpg" alt="Vieux-Port">
+                    <div class="contenu">
+                        <h3>Vieux Port</h3>
+                        <div class="ratings">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <img src="images/activites/4_small/Fort-de-Pomegues.jpg" alt="Fort-de-Pomègues">
+                    <div class="contenu">
+                        <h3>Fort de Pomègues</h3>
+                        <div class="ratings">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <img src="images/activites/4_small/iles-du-Frioul.jpg" alt="îles-du-Frioul">
+                    <div class="contenu">
+                        <h3>îles du Frioul</h3>
+                        <div class="ratings">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <img src="images/activites/4_small/Parc-National-des-Calanques.jpg" alt="Parc-National-des-Calanques">
+                    <div class="contenu">
+                        <h3>Parc National des Calanques</h3>
+                        <div class="ratings">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <img src="images/activites/4_small/Notre-Dame-de-la-Garde.jpg" alt="Notre-Dame-de-la-Garde">
+                    <div class="contenu">
+                        <h3>Notre-Dame-de-la-Garde</h3>
+                        <div class="ratings">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <img src="images/activites/4_small/Parc-Longchamp.jpg" alt="Parc-Longchamp">
+                    <div class="contenu">
+                        <h3>Parc Longchamp</h3>
+                        <div class="ratings">
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
 

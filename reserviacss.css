@@ -38,7 +38,6 @@ p {
 }
 
 header {
-
     display: flex;
     justify-content: space-between;
     align-items: flex-end ;
@@ -71,7 +70,6 @@ article {
 
 
 button{
-
     height: 25px;
     font-size: 60%;
     font-weight: bold;
@@ -86,9 +84,12 @@ button{
     
 }
 
+.button-filtre p{
+    width: 10px;
+}
+
 
 .button-filtre i{
-    
     background-color: #DEEBFF;
     color: #0065FC;
     padding: 7PX;
@@ -112,8 +113,6 @@ input {
 }
 
 .map {   
-
-    
     width: auto;
     height: 30px;
     display: flex;
@@ -123,14 +122,13 @@ input {
 }
 
  .map i {
-    
     width: 30px;
-    height: 25px;
+    height: 27px;
     border-style: solid;
     border-color: #F2F2F2;
     background-color:#F2F2F2; 
     text-align: center;
-    line-height: 25px;
+    line-height: 27px;
     border-right: none;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
@@ -144,6 +142,7 @@ input {
     border-color: #F2F2F2;
     border-right: none;
 }
+
 .input2 {
     background-color: #0065FC;
     border-style:solid;
@@ -154,6 +153,20 @@ input {
     border-left: none;
     border-bottom-right-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+.infocircle{
+    font-size: 70%;
+    display: flex; 
+    align-items: center;
+}
+
+.infocircle i{
+    margin: 0px 5px 0px 0px;
+    background-color: #0065FC;
+    color: white;
+    border-radius: 25px;
+    align-items: center;
 }
 
 
