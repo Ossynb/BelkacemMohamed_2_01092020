@@ -4,30 +4,29 @@
 }
 
 body {
-
+    margin:5%;
+    background-color: chartreuse;
     font-family:'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
-.hébergements, .populaires, footer {
-    background-color: #F2F2F2;
-    border-radius: 12px;
+footer {
+    background-color:wheat ;
    
 }
 
 #bloc_pages{
 
-    width: 1260px;
+    width: 100%;
     margin: auto;
+    background-color: blueviolet;
+    
     
 
 }
 
 h1 img {
-    width: 20%;
-}
-
-h2 {
-    font-size : 95%;
+    width: 30%;
 }
 
 p {
@@ -55,11 +54,7 @@ nav li{
 
 }
 
-article {
 
-    display: flex;
-    
-}
 
 .button-filtre{ 
     font-weight: bold;
@@ -70,7 +65,7 @@ article {
 
 button{
     height: 25px;
-    font-size: 60%;
+    font-size: 80%;
     font-weight: bold;
     background-color: white;
     border-color:#F2F2F2;
@@ -172,50 +167,64 @@ input {
 
 section{
     display: flex;
+    width: auto;
+    background-color: black;
+
+}  
     
+article {
+    display:flex;
+    justify-items: space-around;
+    background: red;   
+   
 }
 
 
 
 .hébergements {
-    width: 800px;
-    height: 500px;
+    width: 70%;
+    height: 100%;
     display:flex;
     flex-direction: column; 
-    padding: 0px;
-    justify-content: space-around;
+    margin:0% 1% 0% 0%;
+    padding: 0%;
+    background-color: #F2F2F2;
+    border-radius: 12px;
     
 }
 
 .populaires{
+    width:  30%;
+    height: 100%;
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
-
+    margin:0% 1% 0% 1%;
+    background-color: #F2F2F2;
+    border-radius: 12px;
 
 }
 
-
-
+aside{
+    background-color: thistle;
+}
 .card {
-    width: 160px;
-    height:140px;
+    width: 30%;
+    height:100%;
     background-color: white;
     border-style: solid;
     border-color: white;
     border-radius: 25px;
-    overflow:hidden;
     display: flex;
     flex-direction: column;
-    
-
-    
+    line-height: 5px;
+    overflow:hidden;
+  
 }
 
 .card img{
-    overflow: hidden;
     width: 100%;
     object-fit: cover;
+    overflow: hidden;
 
 }
 
@@ -224,7 +233,6 @@ section{
 }
 
 .card i{
-    
     color:#0065FC;
     font-size: 60%;
 }
@@ -232,26 +240,36 @@ section{
 .ligne1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    padding: 2%;
+    
 }
 
 .ligne2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-}
-
-article {
-    display:flex;
-    align-items: baseline;
-   
+    padding: 2%;
    
 }
 
 .populaires .card {
     flex-direction: row;
-    width : 200px;
+    width : 80%;
+    height: 30%;
 }
+
+aside {
+    display: inline-block;
+}
+
+.ligne1{
+    background-color: khaki;
+}
+
+.ligne2 {
+    background-color: lemonchiffon;
+
+}
+
 
 
 
