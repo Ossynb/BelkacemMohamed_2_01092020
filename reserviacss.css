@@ -5,9 +5,10 @@
 
 body {
     margin:5%;
-    background-color: chartreuse;
     font-family:'Raleway', Arial, Helvetica, sans-serif;
     font-size: 30px;
+    background-color: white;
+
 }
 
 footer {
@@ -16,13 +17,10 @@ footer {
 }
 
 #bloc_pages{
-
     width: 100%;
     margin: auto;
     background-color: blueviolet;
     
-    
-
 }
 
 h1 img {
@@ -42,26 +40,21 @@ header {
 }
 
 nav ul {
-
     list-style-type: none;
     display: flex;
 }
 
 nav li{
-
     margin-right: 15px;
     margin-bottom: 70px;
 
 }
-
-
 
 .button-filtre{ 
     font-weight: bold;
     align-items: center;
     display:flex;
 }  
-
 
 button{
     height: 25px;
@@ -126,8 +119,7 @@ input {
     border-right: none;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
-
-    
+   
 }
 
 .input1 {
@@ -163,53 +155,73 @@ input {
     align-items: center;
 }
 
-
-
 section{
     display: flex;
     width: auto;
+    Height:800px;
     background-color: black;
-
+   
 }  
     
 article {
     display:flex;
-    justify-items: space-around;
-    background: red;   
-   
+    justify-content: space-around;
+    background: red; 
+    overflow: hidden;
+    height: 100%;
+        
 }
 
-
-
 .hébergements {
-    width: 70%;
+    width: 65%;
     height: 100%;
+    max-height: 100%;
     display:flex;
     flex-direction: column; 
-    margin:0% 1% 0% 0%;
-    padding: 0%;
     background-color: #F2F2F2;
-    border-radius: 12px;
+    border-radius: 12px;  
     
+}
+
+.ligne1 {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start ;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: khaki;
+    overflow:hidden;
+     
 }
 
 .populaires{
     width:  30%;
-    height: 100%;
+    min-height: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     margin:0% 1% 0% 1%;
     background-color: #F2F2F2;
     border-radius: 12px;
-
+    justify-content: start;
+    align-items: center;
+    
 }
 
 aside{
+    display: inline-block;
     background-color: thistle;
+    margin:1%;
 }
+.activités{
+    display: grid;
+    
+}
+
 .card {
-    width: 30%;
-    height:100%;
+    width: 32%;
+    height:30%;
     background-color: white;
     border-style: solid;
     border-color: white;
@@ -218,7 +230,30 @@ aside{
     flex-direction: column;
     line-height: 5px;
     overflow:hidden;
-  
+
+}
+
+.hébergements .card{
+width: 30%;
+height: 43%;
+margin-right : 2%;
+margin-bottom: 2%;
+text-align: left;
+   
+}
+
+.populaires .card {
+    flex-direction: row;
+    width : 80%;
+    height: 20%;
+    margin-bottom: 6%;
+    white-space: wrap;
+
+}
+
+.popoulaires .card img{
+
+    
 }
 
 .card img{
@@ -237,38 +272,13 @@ aside{
     font-size: 60%;
 }
 
-.ligne1 {
-    display: flex;
-    flex-direction: row;
-    padding: 2%;
-    
-}
 
-.ligne2 {
-    display: flex;
-    flex-direction: row;
-    padding: 2%;
-   
-}
 
-.populaires .card {
-    flex-direction: row;
-    width : 80%;
-    height: 30%;
-}
 
-aside {
-    display: inline-block;
-}
 
-.ligne1{
-    background-color: khaki;
-}
 
-.ligne2 {
-    background-color: lemonchiffon;
 
-}
+
 
 
 
