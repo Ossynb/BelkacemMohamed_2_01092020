@@ -94,7 +94,6 @@ nav a{
 nav a:hover{
     color: #0065FC;
     border-top: solid #0065FC;
-    font-size: 130%;
 }
 
 button{
@@ -107,6 +106,17 @@ button:hover{
     transform: rotate(15deg);
     color:white;
     background-color: #0065FC;
+}
+
+.card {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.card:hover{
+    -webkit-transform: scale(0.90);
+    transform: scale(0.90);
 }
 
 .map {   
@@ -346,6 +356,16 @@ article {
     padding-bottom: 5%;
 }
 
+.Ensemble1 .card a, .Ensemble2 .card a, .Ensemble3 .card a, .Ensemble4 .card a{
+    height:100%;
+    padding-bottom: 1%;
+    display: flex;
+    overflow: hidden;
+    object-fit: cover;
+    flex-direction: column;
+    text-decoration: none;
+}
+
 aside{
     display:flex;
     height: 500px;
@@ -354,8 +374,7 @@ aside{
 #activités{
     font-size: 60%;
     font-weight: 900;
-    margin-left: 2%;
-    
+    margin-left: 2%;   
 }
 
 .activités{
