@@ -33,7 +33,6 @@ body {
 
 h1 img {
     width: 15%;
-    background-color: cornflowerblue;
     margin-top: -20%;
 }
 
@@ -234,7 +233,8 @@ article {
     justify-content: space-around; 
     overflow: hidden;
     height: 100%;
-    width: 100%;     
+    width: 100%;
+    
 }
 
 .hébergements {
@@ -433,6 +433,23 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-bottom: 2%;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+@media (max-width: 1300px){
+
+    section{
+        display: flex;
+        height: 100%;
+    }  
+    article     {   
+                    display: flex; 
+                    flex-direction: column-reverse;
+                    }
+       
 }
 
 
