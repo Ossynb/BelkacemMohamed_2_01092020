@@ -473,16 +473,15 @@ footer a:visited{
     section{height: 100%;}
     article{  
             flex-direction: column-reverse;}
-    .populaires{ 
+    .populaires, .hébergements{ 
         align-items: flex-start;
         padding:0%;
         margin:0%;
         width:100%;}
+    .ligne1{align-items: center;}
     .ligne2{align-items: center;}
-    .populaires .card{ width:80%; height:28%;}
-    .hébergements{width:100%;}
-    .hébergements .card{width:100%;
-                        height:28%;}
+    .populaires .card{ width:95%; height:10rem;}
+    .hébergements .card{ width:95%;height:10rem;}
     
     
     
