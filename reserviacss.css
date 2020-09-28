@@ -3,7 +3,6 @@
     src: url('polices/static/Raleway-Regular.ttf')
 }
 
-@media (min-width:426px) and (max-width:1388px){
 body {
     width: 100%;
     font-family:'Raleway', Arial, Helvetica, sans-serif;
@@ -451,7 +450,7 @@ footer a:visited{
     margin-right:280px;
 }
 
-}
+
 
 
 

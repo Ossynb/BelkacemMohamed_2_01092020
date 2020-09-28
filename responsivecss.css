@@ -1,4 +1,4 @@
-@media (max-width:425px) {
+@media screen and (max-width:425px) {
     body, #bloc_pages , section, article, aside, .hébergements, .populaires, .activités, footer
        {width:100%;}
     
@@ -9,7 +9,6 @@
        flex-direction: column;
        align-items: center;
     }
-
     #headerdiv1{
         width: 100%;
         Height:70px;
@@ -20,9 +19,7 @@
         justify-content: space-between;
         align-items: center;          
     }
-
     #headerdiv2{margin-top:30px}
-    
     nav{
         font-size: 18px;;
         width: 100%;
@@ -33,28 +30,23 @@
        justify-content: flex-start;
        margin:0px;
     } 
-
     nav li{
         display: flex;
         justify-content: center;
-        width:50%;}
-
+        width:50%;
+    }
     nav a{
         text-decoration: none;
         padding-top: 15px;
         padding-bottom: 15px;
-        }
-
+    }
     nav a:hover{
         border-top:none;
-        }
-
+    }
     nav li:hover{
         border-bottom: solid #0065FC;
         border-top: none;
-        }
-
-
+    }
     header h2{margin-top: 0px;}
 
     #map {
@@ -65,19 +57,17 @@
         border-bottom-right-radius: 13px;
         border-top-right-radius: 13px;
         width: 90%;
-        justify-content: center;}
-    
+        justify-content: center;
+    }
     #map input{
         font-size:16px;
         width: 100%;
     }
-    
     #map i{
         width: 25%;
         border-bottom-left-radius: 18px;
         border-top-left-radius: 18px;
     }
-
     #map .loupe{
         width: 30%;
         border:none;
@@ -87,7 +77,8 @@
     #button-filtre{
         align-items: flex-start;
         flex-direction: column;
-        margin-top: 25px;}
+        margin-top: 25px;
+    }
     #button-filtre ul{
         align-items: flex-start;
         flex-direction: row;
@@ -99,7 +90,6 @@
         font-weight: bolder;
         margin-bottom:-15px;
     }
-
     article{
         display: flex;
         flex-direction: column-reverse;
@@ -108,7 +98,6 @@
     section{
         height: auto;
     }
-
     .containercardhébergements .card , .containercardpopulaires .card , .containercardactivités .card {
         width:100%;
         margin-bottom: 10px;
@@ -117,11 +106,9 @@
     .hébergements{
         background-color: white;
     }
-
     .populaires{
         border-radius: 0px;
     }
-
     aside{
         width: 100%;
         height: auto;
@@ -130,34 +117,28 @@
         width: 100%;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;    
     }
-
     .containercardactivités{
         width:100%;
         display:flex;
         flex-direction: column;
         flex-wrap: wrap;
-
     }
-
     .containercardactivités .card{
         height:190px;
     }
-
     footer{
         display: flex;
         flex-direction: column;
     }
-
     .apropos, .noshebergements,.assistance{
         margin:0px;    }
     
 
     @media(min-width: 426px) and (max-width: 767px){
         #headermobile, #map .loupe{display: none;}
-
+        
     }  
     
     @media(min-width: 768px) and (max-width: 1388px){
