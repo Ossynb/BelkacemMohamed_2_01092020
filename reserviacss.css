@@ -3,6 +3,7 @@
     src: url('polices/static/Raleway-Regular.ttf')
 }
 
+@media (min-width:426px) and (max-width:1388px){
 body {
     width: 100%;
     font-family:'Raleway', Arial, Helvetica, sans-serif;
@@ -23,7 +24,7 @@ header h2{
     margin-top: -20px;
 }
 
-h2, h3, .map{
+h2, h3, #map{
     font-size: 21px;
     font-weight: bolder;
 }
@@ -38,6 +39,10 @@ h4{
 
 p{
     font-size: 12px;
+}
+
+a{
+    color: black;
 }
 
 header{
@@ -67,9 +72,7 @@ nav li{
     margin-right: 15px;   
 }
 
-a{
-    color: black;
-}
+
 
 nav a{
     text-decoration: none;
@@ -85,7 +88,7 @@ nav a:hover{
     border-top: solid #0065FC;
 }
 
-.map {   
+#map {   
     height: 50px;
     width: auto;
     display: flex;
@@ -93,7 +96,7 @@ nav a:hover{
     padding:auto;
 }
 
- .map i {
+#map i {
     font-size:18px;
     display: flex;
     justify-content: center;
@@ -114,14 +117,14 @@ input {
     font-weight: bold;
 }
 
-.input1 {
+#input1 {
     border-style: solid;
     border-color: #F2F2F2;
     border-right: none;
     text-align: left;
 }
 
-.input2 {
+#input2 {
     background-color: #0065FC;
     border-style:solid;
     border-color: #F2F2F2;
@@ -132,35 +135,25 @@ input {
     border-top-right-radius: 22px;
 }
 
-button{
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
-
-button:hover{
-    -webkit-transform: rotate(15deg);
-    transform: rotate(15deg);
-    color:white;
-    background-color: #0065FC;
-}
-
-.card {
-    -webkit-transform: scale(1);
-	transform: scale(1);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.card:hover{
-    -webkit-transform: scale(0.90);
-    transform: scale(0.90);
-}
-
-.button-filtre{ 
+#button-filtre{ 
     font-weight: bold;
     align-items: center;
     justify-content: flex-start;
     display: flex;
-}  
+} 
+
+#button-filtre p{
+    display: flex;
+}
+
+#button-filtre i{
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 25px;
+    font-size:  110%;
+    padding: 12px;
+    margin: 0px 19px 0px -6px;   
+}
 
 button{
     height: 44px;
@@ -176,17 +169,16 @@ button{
     align-items: center;
 }
 
-.button-filtre p{
-    display: flex;
+button{
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
-.button-filtre i{
-    background-color: #DEEBFF;
-    color: #0065FC;
-    border-radius: 25px;
-    font-size:  110%;
-    padding: 12px;
-    margin: 0px 19px 0px -6px;   
+button:hover{
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+    color:white;
+    background-color: #0065FC;
 }
 
 ul{
@@ -200,13 +192,13 @@ li{
     margin-right: 20px;
 }
 
-.infocircle{
+#infocircle{
     font-size: 70%;
     display: flex; 
     align-items: center;
 }
 
-.infocircle i{
+#infocircle i{
     margin: 0px 5px 0px 0px;
     background-color: #0065FC;
     color: white;
@@ -240,6 +232,102 @@ article {
     margin-right: 40px;        
 }
 
+.populaires{
+    width: 350px;
+    min-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 12px;  
+}
+
+aside{
+    display:flex;
+    height: 500px;
+    justify-content: flex-start;
+}
+
+#activités{
+    font-size: 19px;
+    font-weight: 900;
+    margin-left: 2%;   
+}
+
+.activités{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1%;
+}
+
+.containercardhébergements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: 80%; 
+    padding: 0px 20px 0px 20px;
+}
+
+.containercardpopulaires {
+    display: flex;
+    flex-direction: column;
+    height: 100%;  
+    justify-content: space-between; 
+    align-content: space-around;
+    align-items: center; 
+    padding: 2px 20px 20px 20px;
+}
+
+.containercardactivités{
+    width: 1250px;
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+    justify-content: flex-start;    
+}
+
+.card {
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    font-size: 50%;
+    overflow: hidden;
+    box-shadow: 3px 0px 8px 2px #F2F2F2;
+}
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.card h3{
+    font-size: 14px;
+    font-weight: 900;
+    margin-top: 2px;  
+}
+
+.card i{
+    color:#0065FC;
+    font-size: 60%;
+}
+
+.card {
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.card:hover{
+    -webkit-transform: scale(0.90);
+    transform: scale(0.90);
+}
+
 .hébergements .card{
     width: 222px;
     height: 190px;
@@ -248,23 +336,19 @@ article {
     border-width: thick;              
 }
 
-.hébergements .card img{
+.hébergements a{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-decoration: none;  
+}
+
+.hébergements img{
     width: auto;
 }
 
-.hébergements .card p, .hébergements .card h3, .hébergements .card div{
+.hébergements .contenu h3, .hébergements .contenu p, .hébergements .contenu div{
     margin:3px 0px 3px 6px;
-}
-
-.populaires{
-    width: 350px;
-    min-height: 100%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: #F2F2F2;
-    border-radius: 12px; 
-   
 }
 
 .populaires .card {
@@ -282,72 +366,51 @@ article {
     margin-right: 15px;
 }
 
-.ligne1 {
+.populaires a{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: space-around;
-    flex-wrap: wrap;
-    height: 80%; 
-    padding: 0px 20px 0px 20px;
+    flex-direction: row;  
+    text-decoration: none;
+    margin-right: 45px;    
+}    
+   
+.populaires .ratings {
+       position: absolute;
+       bottom: 10px;
 }
-
-.ligne2{
-    display: flex;
-    flex-direction: column;
-    height: 100%;  
-    justify-content: space-between; 
-    align-content: space-around;
-    align-items: center; 
-    padding: 2px 20px 20px 20px;
-}
-
-.ligne3{
-    width: 1250px;
-    display: flex;
-    overflow: hidden;
-    height: 100%;
-    justify-content: flex-start; 
-    
-    
-}
-
-.Ensemble1, .Ensemble3{
+   
+.cardactivités1et3{
     display:flex;
     align-items: flex-end; 
     margin-right: 25px;  
 }
 
-.Ensemble2, .Ensemble4{
+.cardactivités1et3 .card{
+    width: 290px;
+    height:402px;
+    border: none;
+    margin-bottom: 25px;
+}
+
+.cardactivités2et4{
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
     margin-right: 25px;
     align-items: space-between;  
-
 }
 
-.Ensemble2 .card, .Ensemble4 .card{
+.cardactivités2et4 .card{
     border: none; 
     width: 290px;
     margin-bottom: 25px;
-
 }
 
-.Ensemble1 .card, .Ensemble3 .card{
-    width: 290px;
-    height:402px;
-    border: none;
-    margin-bottom: 25px;
-
-}
-
-.Ensemble1 .card img, .Ensemble2 .card img, .Ensemble3 .card img, .Ensemble4 .card img{
-    height: 95%;  
+.activités img{
+    height: 100%; 
     padding-bottom: 5%;
 }
 
-.Ensemble1 .card a, .Ensemble2 .card a, .Ensemble3 .card a, .Ensemble4 .card a{
+.activités a{
     height:100%;
     padding-bottom: 1%;
     display: flex;
@@ -357,77 +420,8 @@ article {
     text-decoration: none;
 }
 
-aside{
-    display:flex;
-    height: 500px;
-
-    justify-content: flex-start;
-}
-
-#activités{
-    font-size: 19px;
-    font-weight: 900;
-    margin-left: 2%;   
-}
-
-.activités{
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 1%;
-}
-
-.card {
-    background-color: white;
-    border-style: solid;
-    border-color: white;
-    border-radius: 25px;
-    display: flex;
-    flex-direction: column;
-    font-size: 50%;
-    overflow: hidden;
-    box-shadow: 3px 0px 8px 2px #F2F2F2;
-}
-.populaires .card a{
- margin-right: 45px;
-}
-
-.card img{
-    width: 100%;
-    object-fit: cover;
-    overflow: hidden;
-}
-
-.card h3{
-    font-size: 14px;
-    font-weight: 900;
-    margin-top: 2px;  
-}
-
-.populaires .ratings {
-    position: absolute;
-    bottom: 10px;
-}
-
-.hébergements .card a{
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    text-decoration: none;  
-}
-
-.populaires .card a{
-    display: flex;
-    flex-direction: row;  
-    text-decoration: none;    
-}
-
 .activités .card h3{
     margin:0% 0% 5% 5%;
-}
-
-.card i{
-    color:#0065FC;
-    font-size: 60%;
 }
 
 footer {
@@ -456,6 +450,9 @@ footer a:visited{
 .assistance{
     margin-right:280px;
 }
+
+}
+
 
 
 
