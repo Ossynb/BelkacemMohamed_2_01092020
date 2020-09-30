@@ -32,6 +32,11 @@ h2, h3, #map{
     margin-left: 40px;
 }
 
+.populaires h2 i{
+    margin-left:45px;
+}
+
+
 h4{
     font-size: 14px;
 }
