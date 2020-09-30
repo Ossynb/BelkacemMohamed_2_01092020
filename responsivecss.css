@@ -33,6 +33,11 @@
         align-items: center;          
     }
 
+    #headerdiv1 a {
+        color: #0065FC;
+        text-decoration: none;
+    }
+
     #headerdiv2 {
         margin-top:30px
     }
@@ -120,6 +125,13 @@
         font-size: 16px;
         font-weight: bolder;
         margin-bottom:-15px;
+    }
+
+    button:hover {
+        -webkit-transform: none;
+        transform: none;
+        color:white;
+        background-color: #0065FC;
     }
 
     article {
@@ -188,7 +200,6 @@
     .assistance {
         margin:0px;
     }
-
 }
     
 @media(min-width: 426px) and (max-width: 875px) {
@@ -224,6 +235,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;          
+    }
+
+    #headerdiv1 a {
+        color: #0065FC;
+        text-decoration: none;
     }
 
     #headerdiv2 {
@@ -313,6 +329,13 @@
         font-size: 16px;
         font-weight: bolder;
         margin-bottom:-15px;
+    }
+
+    button:hover {
+        -webkit-transform: none;
+        transform: none;
+        color:white;
+        background-color: #0065FC;
     }
 
     article {
@@ -385,10 +408,9 @@
         height: 190px;
     }
 
-    footer{
-        background-color: aqua;
+    footer {
         justify-content: space-around;
-        } 
+    } 
         
     .apropos {
         margin-left: 0px;
@@ -466,7 +488,7 @@
         height: 120px;
     }
 
-    aside{
+    aside {
         height:auto;
     }
 
@@ -475,7 +497,6 @@
         flex-wrap: wrap;
         width: 100%;
         justify-content:space-evenly;
-    
     }
 
     .containercardactivités .card {
@@ -483,39 +504,33 @@
         height: 190px;
     }
 
-    .cardactivités2et4{
+    .cardactivités2et4 {
         flex-direction: row;
         justify-content: space-between;
         margin-right: 40px;
-
     }
 
-    .cardactivités2et4 .card{
+    .cardactivités2et4 .card {
         margin-right: 20px;
     }
 
-    .cardactivités1et3 .card{
+    .cardactivités1et3 .card {
         margin-right: 0px;
     }
 
+}
     
-
-
-    
-
+@media (min-width:1268px) { 
+    #headermobile,
+    #map .loupe {
+        display: none;
     }
-    
-    @media (min-width:1268px) { 
-        #headermobile,
-        #map .loupe {
-            display: none;
-        }
 
-        body {
-            width: auto;
-        }
+    body {
+        width: auto;
+    }
 
-    }    
+}    
     
 
     
