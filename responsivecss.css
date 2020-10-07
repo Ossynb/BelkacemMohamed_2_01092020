@@ -110,6 +110,7 @@
     }
 
     #map .loupe {
+        color: white;
         width: 30%;
         border:none;
         border-radius: 9px;
@@ -335,6 +336,7 @@
     }
 
     #map .loupe {
+        color: white;
         width: 30%;
         border:none;
         border-radius: 9px;
