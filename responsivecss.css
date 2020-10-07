@@ -142,7 +142,6 @@
     }
 
     button:hover {
-        -webkit-transform: none;
         transform: none;
         color:white;
         background-color: #0065FC;
@@ -368,7 +367,6 @@
     }
 
     button:hover {
-        -webkit-transform: none;
         transform: none;
         color:white;
         background-color: #0065FC;

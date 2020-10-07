@@ -14,7 +14,6 @@ body {
 #bloc_pages {
     width: 1300px;
     margin: auto;
-    padding: auto;
 }
 
 h1 img {
@@ -128,7 +127,6 @@ nav a:hover {
     width: auto;
     display: flex;
     margin:auto;
-    padding:auto;
 }
 
 #map i {
@@ -137,8 +135,7 @@ nav a:hover {
     justify-content: center;
     align-items: center;
     width: 50px;
-    border-style: solid;
-    border-color: #F2F2F2;
+    
     background-color:#F2F2F2; 
     text-align:center;
     border-right: none;
@@ -163,14 +160,12 @@ input {
 #input1::placeholder {
     color: black;
     font-weight: 900;
-
 }
 
 #input2 {
     font-weight: bold;
     background-color: #0065FC;
-    border-style:solid;
-    border-color: #0065FC;
+    border: none;
     color: white;
     width: 140px;
     border-left: none;
@@ -214,7 +209,6 @@ button {
     padding-right: 20px;
     display: flex;
     align-items: center;
-    -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
@@ -223,7 +217,6 @@ button span {
 }
 
 button:hover {
-    -webkit-transform: rotate(15deg);
     transform: rotate(15deg);
     color:white;
     background-color: #0065FC;
@@ -341,7 +334,7 @@ aside {             /* Elément contenant la div activités */
 .card {
     background-color: white;
     border-style: solid;
-    border-color: white;
+    border-color: rgb(255, 254, 254);
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -369,8 +362,7 @@ aside {             /* Elément contenant la div activités */
 
 .hébergements .card {
     width: 222px;
-    height: 190px;
-    text-align: baseline; 
+    height: 190px; 
     box-shadow: 5px 0px 8px 0px #c4c2c2; 
     border-width: thick;              
 }
@@ -441,7 +433,6 @@ aside {             /* Elément contenant la div activités */
     flex-direction: column;
     justify-content: flex-end;
     margin-right: 25px;
-    align-items: space-between;  
 }
 
 .activités img {
