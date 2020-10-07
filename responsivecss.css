@@ -11,6 +11,13 @@
         width:100%;
     }
 
+    .hébergements h2,
+    .hébergements h4,
+    .populaires h2,
+    .activités h2 {
+        margin-left: 10px;
+    }
+
     #headerdesktop, 
     #input2 {
         display: none;
@@ -20,6 +27,7 @@
         display: flex; 
         flex-direction: column;
         align-items: center;
+        margin-left: 10px;
     }
 
     #headerdiv1 {
@@ -112,6 +120,7 @@
         align-items: flex-start;
         flex-direction: column;
         margin-top: 25px;
+        margin-left: 10px;
     }
 
     #button-filtre ul {
@@ -127,11 +136,24 @@
         margin-bottom:-15px;
     }
 
+    #button-filtre li {
+        margin: 5px;
+    }
+
     button:hover {
         -webkit-transform: none;
         transform: none;
         color:white;
         background-color: #0065FC;
+    }
+
+    #infocircle {
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    #infocircle p {
+        font-size: 13px;
     }
 
     article {
@@ -163,11 +185,9 @@
         display: flex;
         justify-content: space-between;
     }
-    .populaires h2 i{
-        margin-right:80px;
-    }
-
+    
     aside {
+        padding-top:20px;
         width: 100%;
         height: auto;
     }
@@ -180,6 +200,7 @@
     }
 
     .containercardactivités {
+        margin-left: 10px;
         width:100%;
         display:flex;
         flex-direction: column;
@@ -198,7 +219,7 @@
     .apropos,
     .noshebergements,
     .assistance {
-        margin:0px;
+        margin-left:10px;
     }
 }
     
@@ -220,10 +241,18 @@
         width:100%;
     }
 
+    .hébergements h2,
+    .hébergements h4,
+    .populaires h2,
+    .activités h2 {
+        margin-left: 10px;
+    }
+
     header {
         display: flex; 
         flex-direction: column;
         align-items: center;
+        margin-left: 10px;
     }
 
     #headerdiv1 {
@@ -316,6 +345,7 @@
         align-items: flex-start;
         flex-direction: column;
         margin-top: 25px;
+        margin-left: 10px;
     }
 
     #button-filtre ul {
@@ -331,11 +361,24 @@
         margin-bottom:-15px;
     }
 
+    #button-filtre li {
+        margin: 5px;
+    }
+
     button:hover {
         -webkit-transform: none;
         transform: none;
         color:white;
         background-color: #0065FC;
+    }
+
+    #infocircle {
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    #infocircle p {
+        font-size: 13px;
     }
 
     article {
@@ -356,10 +399,7 @@
         display: flex;
         justify-content: space-between;
     }
-    .populaires h2 i{
-        margin-right:80px;
-    }
-
+    
     .containercardpopulaires { 
         flex-direction: row;
         flex-wrap: wrap;  
@@ -409,11 +449,11 @@
     }
 
     footer {
-        justify-content: space-around;
+        justify-content: space-evenly;
     } 
         
     .apropos {
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     .assistance{
