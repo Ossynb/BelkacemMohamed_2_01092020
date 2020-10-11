@@ -1,8 +1,7 @@
 @media screen and (max-width:425px) {
     body,
     #bloc_pages,
-    section,
-    article,
+    #section,
     aside,
     .hébergements,
     .populaires,
@@ -156,14 +155,11 @@
         font-size: 13px;
     }
 
-    article {
+    #section {
+        height: auto;
         display: flex;
         flex-direction: column-reverse;
         flex-wrap:wrap;
-    }
-
-    section {
-        height: auto;
     }
 
     .containercardhébergements .card,
@@ -231,8 +227,7 @@
 
     body,
     #bloc_pages,
-    section,
-    article,
+    #section,
     aside,
     .hébergements,
     .populaires,
@@ -308,7 +303,7 @@
         border-top: none;
     }
 
-    header h2 {
+    header h1 {
         margin-top: 0px;
     }
 
@@ -381,14 +376,11 @@
         font-size: 13px;
     }
 
-    article {
+    #section {
+        height: auto;
         display: flex;
         flex-direction: column-reverse;
         flex-wrap:wrap;
-    }
-
-    section {
-        height: auto;
     }
 
     .hébergements {
@@ -470,8 +462,7 @@
 
     body,
     #bloc_pages,
-    section,
-    article,
+    #section,
     aside,
     .hébergements,
     .populaires,
@@ -484,11 +475,8 @@
         margin-left:20px;
     }
 
-    section {
+    #section {
         height: auto;
-    }
-
-    article {
         display: flex;
         flex-direction: column;
         flex-wrap:wrap;

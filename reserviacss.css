@@ -16,11 +16,11 @@ body {
     margin: auto;
 }
 
-h1 img {
+header h2 img {
     width: 140px;
 }
 
-header h2 {
+header h1 {
     font-size: 23px;
     margin-top: -20px;
 }
@@ -248,19 +248,13 @@ li {
     align-items: center;
 }
 
-section {           /* Elément contenant les div hébergements et populaires */
+#section {           /* Elément contenant les div hébergements et populaires */
     display: flex;
-    width: auto;
+    width: 100%;
     Height:580px;
-}  
-    
-article {
-    display:flex;
     justify-content: flex-start;
     overflow: hidden;
-    height: 100%;
-    width: 100%;  
-}
+}  
 
 .hébergements {
     width: 850px;
