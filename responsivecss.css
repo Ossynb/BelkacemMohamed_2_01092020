@@ -422,6 +422,13 @@
         height:auto;
     }
 
+    aside .activités img {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;    
+    }
+
     .containercardactivités {
         flex-direction: row;;
         flex-wrap: wrap;
@@ -438,6 +445,10 @@
         flex-direction: row;
         flex-wrap: wrap;
         height: 190px;
+    }
+
+    .cardactivités2et4 .card a{
+        width: 100%;
     }
 
     footer {
