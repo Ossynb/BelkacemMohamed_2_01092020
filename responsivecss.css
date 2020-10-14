@@ -186,7 +186,9 @@
         padding-top:20px;
         width: 100%;
         height: auto;
+
     }
+
 
     aside .activités img {
         width: 100%;
@@ -195,16 +197,22 @@
         flex-wrap: wrap;    
     }
 
-    .containercardactivités {
-        margin-left: 10px;
+    .containercardactivités {  
         width:100%;
         display:flex;
         flex-direction: column;
         flex-wrap: wrap;
+        margin-right: 0px; 
     }
 
     .containercardactivités .card {
-        height:190px;
+        height:190px;  
+    }
+
+    .cardactivités1et3,
+    .cardactivités2et4 {
+        margin-right: 15px;
+        margin-left: 10px; 
     }
 
     footer {
@@ -418,7 +426,7 @@
         margin-bottom: 10px;
     }
 
-    aside{
+    aside{    
         height:auto;
     }
 
@@ -430,7 +438,7 @@
     }
 
     .containercardactivités {
-        flex-direction: row;;
+        flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
         justify-content:space-evenly;
@@ -440,6 +448,12 @@
     .containercardactivités .card {
         width: 300px;
     }
+
+    .activités{
+        padding: 0px;
+    }
+
+    
 
     .cardactivités2et4 .card {
         flex-direction: row;
