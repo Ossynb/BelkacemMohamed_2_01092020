@@ -354,6 +354,10 @@ aside {             /* Elément contenant la div activités */
     font-size: 70%;
 }
 
+.card .greystar {
+    color: #F2F2F2;
+}
+
 .hébergements .card {
     width: 222px;
     height: 190px; 
