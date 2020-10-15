@@ -18,7 +18,6 @@ body {
 
 header h2 img {
     width: 120px;
-
 }
 
 header h1 {
@@ -32,7 +31,6 @@ header p {
 .headertop {
     display:flex;
     justify-content: space-between;
-
 }
 
 .div1 {
@@ -80,7 +78,6 @@ nav a:hover {
     color: #0065FC;
 }
 
-
 #registration {
     color: #0065FC;
     margin-top: 25px;
@@ -88,6 +85,7 @@ nav a:hover {
     margin-left: 10px;
     text-decoration: none;
     border-top: solid white;
+    font-weight: bold;
 }
 
 h2, 
@@ -118,7 +116,6 @@ h3,
     display:flex;
     justify-content: space-between;
 }
-
 
 .populaires h2 i {
     margin-right: 20px;    
