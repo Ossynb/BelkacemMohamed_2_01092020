@@ -17,20 +17,77 @@ body {
 }
 
 header h2 img {
-    width: 140px;
+    width: 120px;
+
 }
 
 header h1 {
     font-size: 23px;
-    margin-top: -20px;
 }
 
 header p {
     font-size: 16px;
 }
 
+.headertop {
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.div1 {
+    display:flex;
+    flex-direction:row-reverse ;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    font-size : 17px;  
+}
+nav {
+    margin-top: 0px;
+    display: flex;
+    margin-right: 0px;
+    justify-content: space-between;  
+    margin-bottom: 20px;   
+}
+
+nav ul {
+    list-style-type: none;
+    width: 100%;   
+    margin: 0px;  
+}
+
+nav li { 
+    padding-right: 20px;
+    padding-top: 20px; 
+    padding-left: 20px;
+    border-top: solid white;
+}
+
+nav a {
+    text-decoration: none; 
+}
+
+nav a:visited {
+    color: gray;
+}
+
+nav li:hover {
+    color: #0065FC;
+    border-top: solid #0065FC;
+}
+
+nav a:hover {
+    color: #0065FC;
+}
+
+
 #registration {
     color: #0065FC;
+    margin-top: 25px;
+    margin-right :70px;
+    margin-left: 10px;
+    text-decoration: none;
+    border-top: solid white;
 }
 
 h2, 
@@ -79,48 +136,7 @@ a{
     color: black;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end ;
-}
 
-nav {
-    display: flex;
-    font-size: 15px;
-    margin-right: 25px;
-    justify-content: flex-end;
-    align-self: flex-start;
-    width: 350px;
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;     
-}
-
-nav li {
-    display:flex;
-    margin-right: 15px;   
-}
-
-
-
-nav a {
-    text-decoration: none;
-    padding-top: 50PX;
-}
-
-nav a:visited {
-    color: gray;
-}
-
-nav a:hover {
-    color: #0065FC;
-    border-top: solid #0065FC;
-}
 
 #map {   
     height: 50px;
