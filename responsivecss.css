@@ -59,10 +59,13 @@
         margin-right: 0px;
         border-bottom: solid white;
         border-top:solid white; 
+        width: 100%;
+        
     }
 
     nav a {
         text-decoration: none;
+        margin: 0 auto ;
  
     }
 
@@ -254,7 +257,7 @@
 
     #registration {
         margin-top: -60px;
-        margin-right: 0px;
+        margin-right: 10px;
     }
 
     nav {
@@ -278,10 +281,12 @@
         margin-right: 0px; 
         border-bottom: solid white;
         border-top:solid white ; 
+        width: 100%;
     }
 
     nav a {
-        text-decoration: none;   
+        text-decoration: none; 
+        margin: 0 auto;  
     }
 
     nav li:hover {
